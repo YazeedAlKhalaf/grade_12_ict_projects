@@ -7,3 +7,4 @@ Hello, I am Yazeed AlKhalaf and those are the projects I made during Grade 12 IC
 | Name                                                                                               | Description                     | Language |
 | -------------------------------------------------------------------------------------------------- | ------------------------------- | -------- |
 | [average_number](https://github.com/YazeedAlKhalaf/grade_12_ict_projects/tree/main/average_number) | Gets the average of two numbers | Python   |
+| [area_of_circle](https://github.com/YazeedAlKhalaf/grade_12_ict_projects/tree/main/area_of_circle) | Gets the area of a circle       | Python   |
