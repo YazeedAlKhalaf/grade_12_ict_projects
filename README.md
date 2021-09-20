@@ -4,5 +4,6 @@ Hello, I am Yazeed AlKhalaf and those are the projects I made during Grade 12 IC
 
 ## Table of Contents
 
-| Name | Description |
-| ---- | ----------- |
+| Name                                                                                               | Description                     | Language |
+| -------------------------------------------------------------------------------------------------- | ------------------------------- | -------- |
+| [average_number](https://github.com/YazeedAlKhalaf/grade_12_ict_projects/tree/main/average_number) | Gets the average of two numbers | Python   |
