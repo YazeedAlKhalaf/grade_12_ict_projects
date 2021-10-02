@@ -15,6 +15,7 @@ def print_error(error):
 
 def print_menu():
     print("\033[H\033[J", end="")
+    print("Choose an operation from the options below:")
     print("1) Add")
     print("2) Subtract")
     print("3) Multiply")
@@ -54,8 +55,7 @@ while(active):
         if user_choice <= 4:
             first = float(input("First number: "))
             second = float(input("Second number: "))
-
-        print_empty_line()
+            print_empty_line()
 
         if user_choice == 1:
             result = add(first, second)
@@ -68,7 +68,9 @@ while(active):
         else:
             print("This choice is not listed in the options.")
 
-        print("Your Result is:", result)
+        if user_choice <= 4:
+            print("Your Result is:", result)
+
         active = False  # this exits the calculator
 
     except NameError:
