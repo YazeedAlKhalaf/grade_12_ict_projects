@@ -2,7 +2,7 @@
 
 > My quarter one project is a simple calculator. It is made using python.
 
-![calculator_test](https://raw.githubusercontent.com/YazeedAlKhalaf/grade_12_ict_projects/main/qurater_one_project/assets/calculator_test.gif)
+![calculator_test](https://github.com/YazeedAlKhalaf/grade_12_ict_projects/raw/main/quarter_one_project/assets/calculator_test.gif)
 
 ## ✨ Features
 
