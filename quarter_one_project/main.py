@@ -52,7 +52,7 @@ while(active):
 
         print_empty_line()
 
-        if user_choice <= 4:
+        if user_choice <= 4 and user_choice != 0:
             first = float(input("First number: "))
             second = float(input("Second number: "))
             print_empty_line()
@@ -65,10 +65,12 @@ while(active):
             result = multiply(first, second)
         elif user_choice == 4:
             result = divide(first, second)
+        elif user_choice == 0:
+            print("Good Bye 👋")
         else:
             print("This choice is not listed in the options.")
 
-        if user_choice <= 4:
+        if user_choice <= 4 and user_choice != 0:
             print("Your Result is:", result)
 
         active = False  # this exits the calculator
